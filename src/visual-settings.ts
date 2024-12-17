@@ -207,6 +207,7 @@ class CrossFilterCardMain extends FormattingSettingsGroup {
         descriptionKey: 'Objects_CrossFilter_Enabled_Description',
         value: VisualConstants.crossFilter.enabled
     });
+
     // Whether to use transparency on non-selected items
     useTransparency = new formattingSettings.ToggleSwitch({
         name: 'useTransparency',
@@ -214,7 +215,8 @@ class CrossFilterCardMain extends FormattingSettingsGroup {
         descriptionKey: 'Objects_CrossFilter_UseTransparency_Description',
         value: VisualConstants.crossFilter.useTransparency
     });
-    // The percentage of transparency to apply to non-selected items (if using transparency)
+
+    // The percentage of transparency to apply to non-selected items
     transparencyPercent = new formattingSettings.Slider({
         name: 'transparencyPercent',
         displayNameKey: 'Objects_CrossFilter_TransparencyPercent',
@@ -226,6 +228,7 @@ class CrossFilterCardMain extends FormattingSettingsGroup {
             unitSymbol: '%'
         }
     });
+
     slices: Array<FormattingSettingsSlice> = [
         this.enabled,
         this.useTransparency,

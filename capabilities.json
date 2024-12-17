@@ -24,6 +24,13 @@
             "description": "Tooltips description.",
             "name": "tooltips",
             "kind": "Measure"
+        },
+        {
+            "displayNameKey": "Roles_MatchingColumn",
+            "descriptionKey": "Roles_MatchingColumn_Description",
+            "displayName": "Matching Column",
+            "name": "matchingColumn",
+            "kind": "Grouping"
         }
     ],
     "objects": {

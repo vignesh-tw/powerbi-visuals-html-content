@@ -26,7 +26,7 @@
     "Objects_ContentFormatting_Align": "Text alignment",
     "Objects_ContentFormatting_Alig_Description": "The default text alignment to apply to the the HTML Body.\n\n𝙉𝙤𝙩𝙚 𝘵𝘩𝘢𝘵 𝘢𝘱𝘱𝘭𝘺𝘪𝘯𝘨 𝘪𝘯𝘭𝘪𝘯𝘦 𝘴𝘵𝘺𝘭𝘦𝘴 𝘵𝘰 𝘦𝘭𝘦𝘮𝘦𝘯𝘵𝘴 𝘮𝘢𝘺 𝘰𝘷𝘦𝘳𝘳𝘪𝘥𝘦 𝘵𝘩𝘪𝘴.",
     "Objects_ContentFormatting_Hyperlinks": "Allow opening URLs",
-    "Objects_ContentFormatting_Hyperlinks_Description": "For security reasons, custom visuals cannot directly open hyperlinks that redirect to a URL.\n\nBy setting this option, the visual will 𝗱𝗲𝗹𝗲𝗴𝗮𝘁𝗲 𝘁𝗵𝗲 𝘂𝘀𝗲𝗿'𝘀 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 𝘁𝗼 𝗻𝗮𝘃𝗶𝗴𝗮𝘁𝗲 𝘁𝗼 𝗮 𝗨𝗥𝗟 𝘁𝗼 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜, which if permitted, will prompt the user for their approval for any remote navigation.",
+    "Objects_ContentFormatting_Hyperlinks_Description": "For security reasons, custom visuals cannot directly open hyperlinks that redirect to a URL.\n\nBy setting this option, the visual will 𝗱𝗲𝗹𝗲𝗴𝗮𝘁𝗲 𝘁𝗵𝗲 𝘂𝘀𝗲𝗿'𝘀 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 𝘁𝗼 𝗻𝗮𝗶𝗴𝗮𝘁𝗲 𝘁𝗼 𝗮 𝗨𝗥𝗟 𝘁𝗼 𝗣𝗼𝘄𝗲𝗿 𝗕𝗜, which if permitted, will prompt the user for their approval for any remote navigation.",
     "Objects_ContentFormatting_UserSelect": "Allow text select",
     "Objects_ContentFormatting_UserSelect_Description": "If enabled, you can use the mouse to select text within the visual container. You can copy this to the clipboard with Ctrl + C, or your operating system's default.",
     "Objects_ContentFormatting_NoDataMessage": "\"No Data\" message",
@@ -45,5 +45,9 @@
     "Status_Invalid_View_Model": "No data available to display.",
     "Status_No_Data": "No data available to display.",
     "Enum_Separation_None": "None",
-    "Enum_Separation_HR": "Horizontal Rule (<hr/>)"
+    "Enum_Separation_HR": "Horizontal Rule (<hr/>)",
+    "Roles_MatchingColumn": "Matching Column",
+    "Roles_MatchingColumn_Description": "Column to match with HTML element IDs for cross-filtering",
+    "Objects_CrossFilter_MatchingColumn": "Matching Column",
+    "Objects_CrossFilter_MatchingColumn_Description": "Column to match with HTML element IDs for cross-filtering. Drag a column to 'Matching Column' field to enable matching."
 }

@@ -201,7 +201,7 @@ export class Visual implements IVisual {
                         viewModel
                     });
                 }
-                resolveHover(dataElements, this.host, viewModel.hasGranularity);
+                resolveHover(dataElements, this.host, true); //changed granularity to true
             }
             resolveHyperlinkHandling(
                 this.host,

@@ -97,9 +97,8 @@ export class ViewModelHandler {
             const hasGranularity = dataViews[0].table.columns.some(
                 c => c.roles.sampling
             );
-            const hasCrossFiltering =
-                hasGranularity &&
-                settings.crossFilter.crossFilterCardMain.enabled.value;
+            // Remove granularity requirement for cross-filtering
+            const hasCrossFiltering = settings.crossFilter.crossFilterCardMain.enabled.value;
             const { columns, rows } = dataViews[0].table;
             const initialSelection = this.viewModel.htmlEntries;
             const hasSelection =

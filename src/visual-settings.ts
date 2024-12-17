@@ -51,15 +51,12 @@ export class VisualFormattingSettingsModel extends FormattingSettingsModel {
         } else {
             this.contentFormatting.contentFormattingCardDefaultBodyStyling.visible = true;
         }
-        // Cross-filtering properties
-        if (viewModel.hasGranularity) {
-            this.crossFilter.crossFilterCardMain.useTransparency.visible = this.crossFilter.crossFilterCardMain.enabled.value;
-            this.crossFilter.crossFilterCardMain.transparencyPercent.visible =
-                this.crossFilter.crossFilterCardMain.enabled.value &&
-                this.crossFilter.crossFilterCardMain.useTransparency.value;
-        } else {
-            this.crossFilter.visible = false;
-        }
+        // Cross-filtering properties - always show if enabled
+        this.crossFilter.crossFilterCardMain.useTransparency.visible = 
+            this.crossFilter.crossFilterCardMain.enabled.value;
+        this.crossFilter.crossFilterCardMain.transparencyPercent.visible =
+            this.crossFilter.crossFilterCardMain.enabled.value &&
+            this.crossFilter.crossFilterCardMain.useTransparency.value;
     }
 }
 
